@@ -107,7 +107,7 @@ Bracket expressions are used to match a single character out of several possible
 
 Greedy and lazy match is used to match as many characters as possible. The greedy match in this regex is \.([a-z\.]{2,6})$. The greedy match matches as many characters as possible. In this case, the greedy match matches the entire string.
 
-As for lazy match, it matches as few characters as possible.
+lazy match, it matches as few characters as possible.
 
 
 ## Author
