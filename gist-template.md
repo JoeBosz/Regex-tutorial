@@ -71,18 +71,45 @@ Quantifiers in regex are operators that connect the users email name to the doma
 {2,6} will allow a match of any string that contains at least two characters and at most six characters. For example, the regex /a{2,6}/ matches the string aaaaaa, but not the string a.
 s
 
+### Character Classes
+The character class in this expression is \d. As mentioned above, \d matches any digit from 0-9. It will only match a single digit such as 1, but it will not match 11.
+
 ### Grouping Constructs
+
+Grouping and capturing is used to match a pattern and capture the matched text. The parentheses in this regex are used to group the email name, domain name, and top-level domain. The parentheses are also used to capture the matched text.
+
+Capturing groups are numbered by their opening parentheses. The first capturing group is 1, the second is 2, and so on. The 0th capturing group is the entire match. The parentheses are numbered from left to right, and nested parentheses are counted from the leftmost open parenthesis.
+
+In this example, capturing group #1 is:
+```
+[a-z0-9_\.-]+)
+```
+This matches the email name.
+
+Capturing group #2 is:
+```
+([\da-z\.-]+)
+```
+This matches the domain name.
+
+Capturing group #3 is:
+```
+([a-z\.]{2,6})
+```
+This matches the top-level domain. (.com)
 
 ### Bracket Expressions
 
-### Character Classes
+Bracket expressions are used to match a single character out of several possible characters. The bracket expression in this regex is [a-z0-9_\.-]. This matches any lowercase letter from a to z, any digit from 0 to 9, an underscore, a period, or a hyphen.
 
-### The OR Operator
 
-### Flags
+### Greedy and Lazy Match 
 
-### Character Escapes
+Greedy and lazy match is used to match as many characters as possible. The greedy match in this regex is \.([a-z\.]{2,6})$. The greedy match matches as many characters as possible. In this case, the greedy match matches the entire string.
+
+As for lazy match, it matches as few characters as possible.
+
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Made By Joe Strzembosz github Joebosz
