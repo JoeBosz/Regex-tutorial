@@ -44,8 +44,6 @@ Meta characters how ever are chacers that do not match themselves as literals. I
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
-- [The OR Operator](#the-or-operator)
-- [Flags](#flags)
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
@@ -112,4 +110,4 @@ lazy match, it matches as few characters as possible.
 
 ## Author
 
-Made By Joe Strzembosz github Joebosz
+Made By Joe Strzembosz github Joebosz [https://github.com/JoeBosz]
