@@ -5,6 +5,10 @@ This is a Regex tutorial I made to better understand how to create a functioning
 
 # 17 Computer Science for JavaScript: Regex Tutorial
 
+## Gist Link
+https://gist.github.com/JoeBosz/ff58e6a58540698fe8029189b96c4e7e
+
+
 ## Your Task
 
 Developers write code, but they also *write about code*. Take a moment to search the web for tutorials about any of the subjects you’ve learned so far in this course. You’re likely to find thousands of tutorials written by developers of all skill levels, including junior developers&mdash;like yourself!
